@@ -1,1 +1,0 @@
-/usr/bin/g++  CMakeFiles/hellocuda.dir/1.hellocuda.cu.o -o app/hellocuda  -L"/usr/local/cuda-11.8/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda-11.8/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
