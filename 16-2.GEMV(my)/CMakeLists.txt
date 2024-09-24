@@ -42,3 +42,12 @@ target_link_libraries(
     MatVec PUBLIC
     -lcudart
     -lcudadevrt)
+
+#16 gemv-2
+add_executable(VecMat
+    VecMat.cu
+)
+target_link_libraries(
+    MatVec PUBLIC
+    -lcudart
+    -lcudadevrt)
